@@ -14,3 +14,9 @@ forked existing repository
 created new branch and made a pull request
 
 created an issue and described pull request in that
+
+web icp2
+
+Created an HTML document named "index.html".
+This page contains paragraphs,Headings,unordered list,ordered list,two div & span elements,at least four block and inline elements,images at appropriate locations in the HTML file and should be clickable,i.e.,when you click the image, it should redirect you to the location of the image in a new tabany relevant video/YouTube video. The video should have controls like play, pause, etc.
+Created a 'cube-shaped color grid' using HTML <div>, <span> elements and CSSelements
