@@ -20,3 +20,7 @@ web icp2
 Created an HTML document named "index.html".
 This page contains paragraphs,Headings,unordered list,ordered list,two div & span elements,at least four block and inline elements,images at appropriate locations in the HTML file and should be clickable,i.e.,when you click the image, it should redirect you to the location of the image in a new tabany relevant video/YouTube video. The video should have controls like play, pause, etc.
 Created a 'cube-shaped color grid' using HTML <div>, <span> elements and CSSelements
+  
+  
+WEB_LECTURE_ICP3: 
+Get to know about Responsive Web Design covering topic like Bootstrap usage,viewport,media types, Boot strap grid views ,web site with and without bootstrap and usage of the meta data.Java Script basics covering the topics like Arithmetic operators,data types,functions,DOM,variables,comparison operators,type conversions and conditional statements.ICP includes creating a rock paper scissors game using java script and RWD using different image and creating links to that images.
