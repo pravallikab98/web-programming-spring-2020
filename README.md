@@ -24,3 +24,6 @@ Created a 'cube-shaped color grid' using HTML <div>, <span> elements and CSSelem
   
 WEB_LECTURE_ICP3: 
 Get to know about Responsive Web Design covering topic like Bootstrap usage,viewport,media types, Boot strap grid views ,web site with and without bootstrap and usage of the meta data.Java Script basics covering the topics like Arithmetic operators,data types,functions,DOM,variables,comparison operators,type conversions and conditional statements.ICP includes creating a rock paper scissors game using java script and RWD using different image and creating links to that images.
+
+
+WEB_LECTURE_ICP4: Class lecture is about going deep into the Java Script object,this keyword,prototype.Aftet that Jquery basics dealing with the topics like selectors,object,DOM,classes,attributes,get,set,elements,each,event handling,event delegation,API's and AJAX.ICP includes knowing the details of the github user with the help of username by using the git api and second task includes the mouse hover page to show images on screen when we put the mouse on that image.
