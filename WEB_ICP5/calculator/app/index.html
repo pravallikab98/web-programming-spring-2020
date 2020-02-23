@@ -1,0 +1,40 @@
+
+<!doctype html>
+<html>
+
+<head>
+    <title>AngularJS Calculator</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.5/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.13/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="app.css"/>
+</head>
+
+<body ng-app="Calculator" ng-controller="calculatorCtrl">
+<div class="whole-container">
+    <div class="result-container">
+        {{firstValue || 0 }}
+        <span ng-if="currentModifier">{{currentModifier}}</span>
+        <span ng-if="secondValue">{{ secondValue }}</span>
+        <span ng-if="result" class="result-item"> = {{ result }}</span>
+        <button class="clear-button" ng-click="clearNumbers()">X</button>
+    </div>
+    <div class="number-modify-container">
+        <div class="number-container">
+            <div class="number-inner-container" ng-repeat="num in numArr">
+                <button class="number-item"  ng-click="showNumber(num)">{{ num }}</button>
+                <button class="number-item" ng-if="$index == 9" ng-click="showNumber('.')"> . </button>
+            </div>
+
+        </div>
+        <div class="modify-container">
+            <button class="modify-item" ng-repeat="mod in modifiers" ng-click="makeSecondValue(mod)">{{ mod }}</button>
+
+        </div>
+    </div>
+    <button class="result-button number-item" ng-click="doMath()"> = </button>
+</div>
+</body>
+
+</html>
